@@ -16,7 +16,7 @@ module Chess
     
     def ==(other)
       return false unless other.respond_to?(:color)
-      (@tyoe == other.type and @color == other.color)
+      (@type == other.type and @color == other.color)
     end 
     
   end
