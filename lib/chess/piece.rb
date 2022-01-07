@@ -10,7 +10,7 @@ module Chess
       if @type == :knight
         'n'
       else
-        type.to_s[0,1]
+        @type.to_s[0,1]
       end 
     end
     
