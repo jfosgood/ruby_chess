@@ -3,7 +3,7 @@ class Numeric
     if self > 0
       1
     else 
-      -1 if self < 0 else 0
+      self == 0 ? 0 : -1
     end 
   end 
 end 
