@@ -1,6 +1,7 @@
 require "bundler/setup"
 require "chess"
 require_relative "../lib/chess.rb"
+require_relative "../lib/chess/numeric_extentions.rb"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
