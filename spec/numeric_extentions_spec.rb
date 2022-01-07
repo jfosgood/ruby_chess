@@ -1,6 +1,6 @@
-require "spec_helper"
+require_relative "spec_helper.rb"
 
-describe Numeric do 
+RSpec.describe Numeric do 
   context "#sign" do 
     it "returns 1 for positive number" do 
       number = 5
